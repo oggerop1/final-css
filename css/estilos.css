@@ -1,0 +1,31 @@
+header{
+  background-color: #5b7989;
+  border-radius: 10px;
+}
+
+header h1{
+
+  color: white;
+  text-shadow: 2px 0px #02010a;
+
+}
+
+nav {
+     text-align: right;
+     display: block;
+     margin-top: -35px;
+     margin-right: 10px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#imagen-central{
+  margin-top: 20px;
+  width: 90%;
+  height: 300px;
+}
+img{
+  width: 100%
+}
