@@ -1,31 +1,71 @@
+
+@import url('https://fonts.google…com/css?family=Dancing+Script');
+body {
+margin: 20px;
+font-family: 'Dancing Script', cursive;
+background-color: black;
+}
+
 header{
-  background-color: #5b7989;
-  border-radius: 10px;
+  background-color:#5b7989;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
 }
 
 header h1{
-
-  color: white;
   text-shadow: 2px 0px #02010a;
+}
+footer {
+	padding-top: 10px;
+	text-align: center;
+  background-color: #C6d5c5;
+}
+nav{
+  margin-top: -40px;
+  text-align: right;
+  margin-right: 80px;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+
+.contenedor {
+display: flex;
+flex-direction: row;
+}
+
+#contenido {
+display: flex;
+flex-direction: column;
+}
+#imagen-central {
+  background-color: #82c3a6;
+  padding: 50px;
 
 }
 
-nav {
-     text-align: right;
-     display: block;
-     margin-top: -35px;
-     margin-right: 10px;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-#imagen-central{
-  margin-top: 20px;
-  width: 90%;
-  height: 300px;
-}
 img{
-  width: 100%
+
+    box-shadow: 2px 2px 2px #02010a;
+}
+#imagen-central .contenedor  img {
+  width: 100%;
+  height: 400px;
+
+}
+
+#imagenes-DerIzq {
+  background-color: #d5c75f;
+  border: 1px;
+  padding: 50px;
+}
+
+#imagenes-DerIzq .contenedor img {
+  padding: 10px;
+
+  width: 50%;
 }
